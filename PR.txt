@@ -1,14 +1,15 @@
 // 1.1
 Persistência dos dados
-id -> _id
-Número de Registo -> NumeroDeRegisto
-Código de rua -> CodigoDeRua
-Espécie -> Especie
-Nome Científico -> NomeCientifico
-DataDePlantacao -> DataPlantacao
-Implantação -> Implantacao
-Data de actualização -> DataDeActualizacao
-Número de intervenções -> NumeroDeIntervencoes
+Foram renomeadas as seguintes colunas: 
+  id -> _id
+  Número de Registo -> NumeroDeRegisto
+  Código de rua -> CodigoDeRua
+  Espécie -> Especie
+  Nome Científico -> NomeCientifico
+  DataDePlantacao -> DataPlantacao
+  Implantação -> Implantacao
+  Data de actualização -> DataDeActualizacao
+  Número de intervenções -> NumeroDeIntervencoes
 
 // Load
 mongoimport -d plantas -c plantas plantas.json --jsonArray
